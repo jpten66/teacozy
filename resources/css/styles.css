@@ -1,0 +1,141 @@
+/* ---------------- Universal Styles ---------------- */
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+
+a{
+  color: seashell;
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* ---------------- Header Styles ---------------- */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleBlock{
+  width: 100%;
+}
+
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/* ---------------- Main Body Styles ---------------- */
+.mainBlock{
+  padding-top: 70px;
+}
+
+/* ---------------- Mission Block Styles ---------------- */
+#Mission img{
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.missionContent{
+  height: 700px;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+/* ---------------- Tea of the Month Styles ---------------- */
+#TeaMonth{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.pictureBlock{
+  margin: 10px 15px;
+}
+
+.pictureBlock h4{
+  margin: 10px 0;
+}
+
+#TeaMonth img{
+  height: 200px;
+  width: 300px;
+}
+
+/* ---------------- Locations Styles ---------------- */
+.contentBlock{
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  border: 1px black solid;
+  margin: 0 auto;
+}
+
+.contentBlock h2{
+  width: 100%;
+  /* height: 50px; */
+  padding: 0;
+  margin: 75px 0 15px 0;
+}
+
+.center{
+  margin: 0 30px;
+}
+
+.locBlock{
+  display: inline-block;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+/* ---------------- Footer Styles ---------------- */
+.contact{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
